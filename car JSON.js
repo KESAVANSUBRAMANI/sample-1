@@ -1,17 +1,17 @@
 var car = {
     'dimensions':{
-     "overall length" : 3500,
-     "overall width" : 1600,
-     "overall height": 1490,
-     "wheelbase"     :2360,
-     "track width front": 1405,
-     "trackwidth back" : 1400,
-     "minimum turning radius": 4.5,
-     "minimum ground clearance":170
+     "overAlllength" : 3500,
+     "overAllWidth" : 1600,
+     "overAllHeight": 1490,
+     "wheelBase"     :2360,
+     "trackWidthFront": 1405,
+     "trackWidthBack" : 1400,
+     "minimumTurningRadius": 4.5,
+     "minimumGroundClearance":170
 },
     'capacity': {
-        "seating capacity" : "5 persons",
-        "fuel tank capacity" : "35 litres"
+        "seatingCapacity" : "5 persons",
+        "fuelTankCapacity" : "35 litres"
     }
 }
 console.log(car.capacity);
